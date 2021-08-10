@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static char function(String s) {
+		return s.charAt(s.length());
+	}
+	
+	public static void main(String[] args) {
+		// 문자열에서 마지막 단어 반환하기
+		String aa = "Hello World";
+		
+		System.out.println("Hello Wrold의 마지막 글자는 : " + function(aa) + " 입니다.");
+
+	}
+
+}

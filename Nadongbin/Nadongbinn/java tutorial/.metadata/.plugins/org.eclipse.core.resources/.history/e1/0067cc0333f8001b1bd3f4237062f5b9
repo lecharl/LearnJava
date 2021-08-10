@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Main {
+
+	// 반환형, 함수명(매개변수1, 2,,..)
+	public static int Maxgong(int a, int b, int c)
+	{
+		int min;
+		if (a>b)
+		{
+			if (b>c)
+			{
+				min =  c;
+			}
+			else
+			{
+				min =  b;
+			}
+		}
+		else
+		{
+			if (a>c)
+			{
+				min = c;
+			}
+			else
+			{
+				min = a;
+			}
+		}
+		for(int i = min; i > 0; i--)
+		{
+			if(a % i == 0 && b % i == 0 && c % == 0)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+	
+	public static void main(String[] args) {
+		// 3개의 최대공약수 구하기
+		
+		Scanner three = new Scanner(System.in);
+		
+		System.out.println("세 정수를 입력하시오.");
+		int x, y, z = three.nextInt();
+		
+		System.out.println("입력한 세 정수의 최대공약수는 : " + Maxgong(x, y, z));
+
+	}
+
+}
