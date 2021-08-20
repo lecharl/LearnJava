@@ -36,7 +36,7 @@ class Buyer {
 	//(Tv1 t)...를 반복하는 것보다 조상인 (Product p)로
 	void buy(Product p) {
 		if(money < p.price) {
-			System.out.println("잔액이 부족합니다.");
+			System.out.println(p+"을/를 구입하기에 잔액이 부족합니다.");
 			return;
 		}
 			
