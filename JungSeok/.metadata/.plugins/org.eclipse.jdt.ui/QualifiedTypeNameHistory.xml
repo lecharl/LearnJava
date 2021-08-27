@@ -12,4 +12,8 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Card"/>
+    <fullyQualifiedTypeName name="MyMath2"/>
+    <fullyQualifiedTypeName name="MyMathTest2"/>
+    <fullyQualifiedTypeName name="Car2"/>
 </qualifiedTypeNameHistroy>
