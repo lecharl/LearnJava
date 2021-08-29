@@ -16,4 +16,7 @@
     <fullyQualifiedTypeName name="MyMath2"/>
     <fullyQualifiedTypeName name="MyMathTest2"/>
     <fullyQualifiedTypeName name="Car2"/>
+    <fullyQualifiedTypeName name="FCar2"/>
+    <fullyQualifiedTypeName name="My3D"/>
+    <fullyQualifiedTypeName name="MyPoint3"/>
 </qualifiedTypeNameHistroy>

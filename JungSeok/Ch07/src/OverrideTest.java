@@ -4,6 +4,12 @@ class MyPoint3 {
 	String getlocation() {
 		return "x:"+x+", y:"+y;
 	}
+	MyPoint3(){}
+	
+	MyPoint3(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 }
 
 class My3D extends MyPoint3 {	// 상속받고
@@ -17,10 +23,10 @@ class My3D extends MyPoint3 {	// 상속받고
 	public String toString() {
 		return "x:"+x+", y:"+y+", z:"+z;
 	}
-	// 생성자
+	My3D(){}	//super();==MyPoint3(); 호출
+
 	My3D(int x, int y, int z) {
-		this.x = x;
-		this.y = y;
+		super(x, y);
 		this.z = z;
 	}
 }
@@ -28,12 +34,11 @@ class My3D extends MyPoint3 {	// 상속받고
 public class OverrideTest {
 
 	public static void main(String[] args) {
-//		// 오버라이딩 테스트
-//		My3D p = new My3D();
-//		p.x = 3;
-//		p.y = 5;
-//		p.z = 7;
-//		System.out.println(p.getlocation());
+		My3D p = new My3D();
+		p.x = 3;
+		p.y = 5;
+		p.z = 7;
+		System.out.println(p.getlocation());
 		
 		// toString()을 오버라이딩
 		My3D p2 = new My3D(3,5,7);

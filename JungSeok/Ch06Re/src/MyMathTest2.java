@@ -2,6 +2,11 @@ class MyMath2{
 	//iv
 	long a, b;
 	
+	//생성자 자동추가
+	MyMath2(){
+		super();	//생성자호출 자동추가
+	}
+	
 	//ins메소드1
 	long insAdd() {	
 		return a+b;

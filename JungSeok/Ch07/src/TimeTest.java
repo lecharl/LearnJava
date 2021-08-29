@@ -16,7 +16,7 @@ class Time {
 	private boolean isNotValidHour(int hour) {
 		return hour < 0 || hour > 23;
 	}
-	// 입력받은 시 읽기, 반환
+	// 입력받은 (유효한) 시  뱉어내기
 	public int getHour() {
 		return hour;
 	}
