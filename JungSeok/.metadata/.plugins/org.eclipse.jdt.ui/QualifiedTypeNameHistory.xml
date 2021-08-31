@@ -30,4 +30,8 @@
     <fullyQualifiedTypeName name="Audio2"/>
     <fullyQualifiedTypeName name="Product2"/>
     <fullyQualifiedTypeName name="AudioPlayer"/>
+    <fullyQualifiedTypeName name="Marine"/>
+    <fullyQualifiedTypeName name="DropShip"/>
+    <fullyQualifiedTypeName name="Fighter"/>
+    <fullyQualifiedTypeName name="Fightable"/>
 </qualifiedTypeNameHistroy>
