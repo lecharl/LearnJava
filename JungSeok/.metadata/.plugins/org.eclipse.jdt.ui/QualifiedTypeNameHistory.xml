@@ -34,4 +34,13 @@
     <fullyQualifiedTypeName name="DropShip"/>
     <fullyQualifiedTypeName name="Fighter"/>
     <fullyQualifiedTypeName name="Fightable"/>
+    <fullyQualifiedTypeName name="Ex7_12.StaticInner"/>
+    <fullyQualifiedTypeName name="LocalInner"/>
+    <fullyQualifiedTypeName name="Ex7_12"/>
+    <fullyQualifiedTypeName name="Ex7_12.InstanceInner"/>
+    <fullyQualifiedTypeName name="Outer"/>
+    <fullyQualifiedTypeName name="Outer.InstanceInner"/>
+    <fullyQualifiedTypeName name="Outer.StaticInner"/>
+    <fullyQualifiedTypeName name="Outer2"/>
+    <fullyQualifiedTypeName name="Outer2.Inner2"/>
 </qualifiedTypeNameHistroy>
