@@ -43,4 +43,6 @@
     <fullyQualifiedTypeName name="Outer.StaticInner"/>
     <fullyQualifiedTypeName name="Outer2"/>
     <fullyQualifiedTypeName name="Outer2.Inner2"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>
