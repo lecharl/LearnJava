@@ -1,15 +1,16 @@
 class Outer2{
-	int value = 10;
+	int value1 = 10;
 	
 	class Inner2{
 		int value = 20;
+//		value1 = 50;
 		
 		void method() {
 			int value = 30;
 			
 			System.out.println("value = "+value);
 			System.out.println("this.value = "+this.value);
-			System.out.println("Outer2.this.value = "+Outer2.this.value);
+			System.out.println("Outer2.this.value = "+Outer2.this.value1);
 		}
 	}
 	
