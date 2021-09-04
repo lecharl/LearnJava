@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="My3D"/>
     <fullyQualifiedTypeName name="MyPoint3"/>
     <fullyQualifiedTypeName name="Change"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="Car"/>
     <fullyQualifiedTypeName name="FireEngine"/>
     <fullyQualifiedTypeName name="Product"/>
@@ -47,4 +46,7 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.util.TraceMethodVisitor"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.Value"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="Value"/>
 </qualifiedTypeNameHistroy>
