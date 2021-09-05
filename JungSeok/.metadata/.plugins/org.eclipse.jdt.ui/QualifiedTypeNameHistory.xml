@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="MyPoint3"/>
     <fullyQualifiedTypeName name="Change"/>
     <fullyQualifiedTypeName name="Car"/>
-    <fullyQualifiedTypeName name="FireEngine"/>
     <fullyQualifiedTypeName name="Product"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Buyer"/>
@@ -47,6 +46,9 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.util.TraceMethodVisitor"/>
     <fullyQualifiedTypeName name="com.sun.jdi.Value"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="Value"/>
+    <fullyQualifiedTypeName name="FireEngine"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="Balue"/>
+    <fullyQualifiedTypeName name="Person"/>
 </qualifiedTypeNameHistroy>
