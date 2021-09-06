@@ -18,7 +18,6 @@
     <fullyQualifiedTypeName name="Change"/>
     <fullyQualifiedTypeName name="Car"/>
     <fullyQualifiedTypeName name="Product"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Buyer"/>
     <fullyQualifiedTypeName name="Tv"/>
     <fullyQualifiedTypeName name="Computer"/>
@@ -51,4 +50,9 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="Balue"/>
     <fullyQualifiedTypeName name="Person"/>
+    <fullyQualifiedTypeName name="com.sun.java.swing.plaf.windows.WindowsTextPaneUI"/>
+    <fullyQualifiedTypeName name="test2.MyCollection"/>
+    <fullyQualifiedTypeName name="com.kh.test.model.vo.Card"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
