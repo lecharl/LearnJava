@@ -55,4 +55,5 @@
     <fullyQualifiedTypeName name="com.kh.test.model.vo.Card"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>
