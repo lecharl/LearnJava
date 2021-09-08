@@ -15,7 +15,7 @@ public class Test2_1 {
 		car[1].setName("기아자동차");
 		car[2].setName("삼성자동차");
 		
-		for(int i=0;i<=car.length;i++) {	//2. i<car.length
+		for(int i=0;i<car.length;i++) {	//2. i<car.length
 			
 			System.out.println(car[i].getName());
 			

@@ -35,6 +35,7 @@ public class MyCollection {
 	public static void main(String[] args) {
 		MyCollection mykh = new MyCollection();
 		mykh.test();
+		
 	}
 
 }
