@@ -103,6 +103,8 @@ public class HaksaProject {
 				String name = sc.next();
 				System.out.println("1.학생 2.교수 3.관리자");
 				char search = sc.next().charAt(0);
+				boolean result = false;	
+				//***찾을때까지 돌면서 학생이 없다고 뜨니까 flag만들기인가?
 				if(search=='1') {//분야를 나누자**
 					for(int i=0; i<sList.size(); i++) {
 						if(name.equals(sList.get(i).getName())) {
@@ -112,8 +114,12 @@ public class HaksaProject {
 							System.out.print(sList.get(i).getAge()+"\t");
 							System.out.print("학번:");
 							System.out.print(sList.get(i).getHakbun()+"\n");
+							result = true;	//***
 						}else {
-							System.out.println("찾으시는 학생이 없습니다.");
+							if(result==false) {//***
+								System.out.println("찾으시는 학생이 없습니다.");
+								result = true;
+							}
 						}
 					}
 				} else if(search=='2') {
@@ -125,8 +131,12 @@ public class HaksaProject {
 							System.out.print(pList.get(i).getAge()+"\t");
 							System.out.print("과목:");
 							System.out.print(pList.get(i).getSubject()+"\n");
+							result = true;	//***
 						}else {
-							System.out.println("찾으시는 교수가 없습니다.");
+							if(result==false) {//***
+								System.out.println("찾으시는 교수가 없습니다.");
+								result = true;
+							}
 						}
 					}
 				} else if(search=='3') {
@@ -138,8 +148,12 @@ public class HaksaProject {
 							System.out.print(mList.get(i).getAge()+"\t");
 							System.out.print("부서:");
 							System.out.print(mList.get(i).getPart()+"\n");
+							result = true;	//***
 						}else {
-							System.out.println("찾으시는 관리자가 없습니다.");
+							if(result==false) {//***
+								System.out.println("찾으시는 관리자가 없습니다.");
+								result = true;
+							}
 						}
 					}
 				}else {
@@ -157,6 +171,32 @@ public class HaksaProject {
 				System.out.println("삭제할 사람의 이름을 입력해 주세요.");
 				System.out.print("이름:");
 				String name = sc.next();
+				System.out.println("1.학생 2.교수 3.관리자");
+				char delete = sc.next().charAt(0);
+				if(delete=='1') {
+					for(int i=0; i<sList.size(); i++) {	//여기도 반복문***
+						if(name.equals(sList.get(i).getName())) {
+							System.out.println(name+"님을 삭제하였습니다.");
+							sList.remove(i);
+						}
+					}
+				}else if(delete=='2') {
+					for(int i=0; i<pList.size(); i++) {
+						if(name.equals(pList.get(i).getName())) {
+							System.out.println(name+"님을 삭제하였습니다.");
+							pList.remove(i);
+						}
+					}
+				}else if(delete=='3') {
+					for(int i=0; i<mList.size(); i++) {
+						if(name.equals(mList.get(i).getName()))	{
+							System.out.println(name+"님을 삭제하였습니다.");
+							mList.remove(i);
+						}
+					}
+					
+				}
+				
 				
 				System.out.print("계속하시려면 1, 종료하시려면 0을 입력해 주세요.. ");
 				bunho = sc.nextInt();
@@ -206,8 +246,6 @@ public class HaksaProject {
 				System.out.println("번호가 유효하지 않습니다.");
 			}
 		}//반복문 끝
-		
-
 	}
 
 }
