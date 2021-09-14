@@ -11,13 +11,6 @@ class Ex10_02 {
 		Calendar date1 = Calendar.getInstance();
 		Calendar date2 = Calendar.getInstance();
 		
-		
-		//toString 오버라이딩			
-		public static String toString(Calendar date) {
-			return date.get(Calendar.YEAR)+"년 ";
-		}	
-		//왜 자꾸 에러가 나는지 모르겠다 ㅠㅠㅠ
-		
 		//2020년 4월 29일
 		//3대신 Calendar.APRIL 해도 됨!
 		date1.set(2020, 3, 29);
@@ -34,4 +27,10 @@ class Ex10_02 {
 		
 		
 	}
+	
+	//toString 오버라이딩			
+	public static String toString(Calendar date) {
+		return date.get(Calendar.YEAR)+"년 ";
+	}	
+	//왜 에러가 나는지 알았다. 메인메소드 안에 있으니까 그렇지 이 바보야!!!!
 }
