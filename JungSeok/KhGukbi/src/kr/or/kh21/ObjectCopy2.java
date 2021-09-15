@@ -1,7 +1,5 @@
 package kr.or.kh21;
 
-import java.util.Iterator;
-
 public class ObjectCopy2 {
 
 	public static void main(String[] args) {
