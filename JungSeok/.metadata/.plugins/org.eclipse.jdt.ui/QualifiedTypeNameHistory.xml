@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Car"/>
-    <fullyQualifiedTypeName name="Product"/>
-    <fullyQualifiedTypeName name="Buyer"/>
-    <fullyQualifiedTypeName name="Tv"/>
     <fullyQualifiedTypeName name="Computer"/>
     <fullyQualifiedTypeName name="Buyer2"/>
     <fullyQualifiedTypeName name="Audio2"/>
@@ -45,7 +41,6 @@
     <fullyQualifiedTypeName name="sample02.MyCollection"/>
     <fullyQualifiedTypeName name="sample02.ProfessorDTO"/>
     <fullyQualifiedTypeName name="sample02.ManagerDTO"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="sample02.StudentDTO"/>
     <fullyQualifiedTypeName name="kr.or.kh18.Company"/>
     <fullyQualifiedTypeName name="sun.security.jca.GetInstance"/>
@@ -53,11 +48,16 @@
     <fullyQualifiedTypeName name="sun.util.locale.provider.BaseLocaleDataMetaInfo"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="kr.or.kh21.Book"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
