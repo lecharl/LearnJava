@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Computer"/>
-    <fullyQualifiedTypeName name="Buyer2"/>
-    <fullyQualifiedTypeName name="Audio2"/>
-    <fullyQualifiedTypeName name="Product2"/>
-    <fullyQualifiedTypeName name="AudioPlayer"/>
-    <fullyQualifiedTypeName name="Marine"/>
-    <fullyQualifiedTypeName name="DropShip"/>
     <fullyQualifiedTypeName name="Fighter"/>
     <fullyQualifiedTypeName name="Fightable"/>
     <fullyQualifiedTypeName name="Ex7_12.StaticInner"/>
@@ -50,14 +43,21 @@
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="kr.or.kh21.Book"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.EmptyStackException"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="kr.or.kh02.ManMidSchool"/>
+    <fullyQualifiedTypeName name="kr.or.kh02.WomanMidSchool"/>
+    <fullyQualifiedTypeName name="kr.or.kh02.ManTechHighSchool"/>
+    <fullyQualifiedTypeName name="kr.or.kh02.WomanComHighSchool"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
