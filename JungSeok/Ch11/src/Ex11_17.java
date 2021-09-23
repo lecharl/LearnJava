@@ -57,6 +57,7 @@ public class Ex11_17 {
 		System.out.println("최고점수 : "+Collections.max(c));
 		System.out.println("최저점수 : "+Collections.min(c));
 		//**위의 max(), min()은 Comparable구현한 클래스객체만 들어올 수 있다!
+		
 
 	}
 
