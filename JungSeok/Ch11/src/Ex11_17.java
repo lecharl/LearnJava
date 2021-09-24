@@ -19,6 +19,8 @@ public class Ex11_17 {
 		
 		//***cf_06 iterator로 읽어오기
 		Set set = map.entrySet();
+		//**쌍으로
+		System.out.println(set);
 		Iterator it = set.iterator();
 		//아래는 위의 두줄을 줄인 것
 		//Iterator it = map.entrySet().iterator();
@@ -33,6 +35,7 @@ public class Ex11_17 {
 			Map.Entry e = (Map.Entry)it.next();
 			System.out.println("이름 : "+e.getKey()+", 점수 : "+e.getValue());
 		}
+				
 		
 		//***key들만
 		set = map.keySet();
