@@ -17,6 +17,9 @@ public class Ex11_17 {
 		
 		System.out.println(map);
 		
+		int in = (int) map.get("안자바");
+		System.out.println(in);
+		
 		//***cf_06 iterator로 읽어오기
 		Set set = map.entrySet();
 		//**쌍으로
