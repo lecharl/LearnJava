@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sun.util.locale.provider.BaseLocaleDataMetaInfo"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="kr.or.kh21.Book"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="Grape2"/>
     <fullyQualifiedTypeName name="Apple2"/>
     <fullyQualifiedTypeName name="Juicer"/>
+    <fullyQualifiedTypeName name="Direction"/>
 </qualifiedTypeNameHistroy>
