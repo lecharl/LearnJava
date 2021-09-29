@@ -10,7 +10,7 @@ public class Ex13_04 {
 		for(int i=10; i>0; i--) {
 			System.out.println(i);
 			try {
-				Thread.sleep(1000);	//Thread클의 메소드
+				Thread.sleep(1000);	//Thread클의 메소드,1초간 시간을 지연한다.
 			} catch (Exception e) {
 			}
 		}

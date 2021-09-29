@@ -9,10 +9,12 @@ public class Ex13_01 {
 		//2. Runnable 구현 방법
 		Runnable r = new Thread01_2();
 		Thread t2 = new Thread(r);
-		//줄이면 : Thread t2 = new Thread(new Threadex2());
+		//줄이면 : Thread t2 = new Thread(new Thread01_2());
 		
 		t1.start();
 		t2.start();
+		
+		//위 문장들(쓰레드..)이 없다면 싱글쓰레드
 		
 		for(int i=0; i<20; i++){
 			System.out.print(0);	//thread의 이름 반환
