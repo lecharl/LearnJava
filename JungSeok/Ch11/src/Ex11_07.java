@@ -39,6 +39,9 @@ class Descending implements Comparator{
 		//비교대상이 Comparable을 구현한 클래스가 아니면 비교할 수 없기에 
 		//참고로 String은 Comparator를 구현하지 않았다!! Comparable만!!!
 	}
-	
-	
+}
+
+@FunctionalInterface
+interface Comparator<T>{
+	public abstract 
 }
