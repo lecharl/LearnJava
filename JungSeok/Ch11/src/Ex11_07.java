@@ -13,6 +13,9 @@ public class Ex11_07 {
 		Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER);
 		//String의 Comparator구현(compare()구현)+대소문자 구별 안함
 		System.out.println("strArr = "+Arrays.toString(strArr));
+		
+		Arrays.sort(strArr, (s1, s2) -> s2.compareTo(s1));
+		System.out.println("strArr = "+Arrays.toString(strArr));
 
 		Arrays.sort(strArr, new Descending());
 		//이번엔 직접 만든 기준을 담은 객체를 호출한다.+역순
@@ -40,8 +43,8 @@ class Descending implements Comparator{
 		//참고로 String은 Comparator를 구현하지 않았다!! Comparable만!!!
 	}
 }
-
-@FunctionalInterface
-interface Comparator<T>{
-	public abstract 
-}
+//기본적으로 이렇게 되어있다!!
+//@FunctionalInterface
+//interface Comparator1<T>{
+//	public abstract int compare(T o1, T o2);
+//}

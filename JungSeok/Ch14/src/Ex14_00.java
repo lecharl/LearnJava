@@ -14,7 +14,7 @@ class Ex14_00 {
 		
 		//¶÷´Ù½Ä***
 		MyFunction2 f2 = (a, b) -> a>b? a:b;
-		int value2 = f.max(3, 5);
+		int value2 = f2.max(3, 5);
 		System.out.println("value2= "+value2);
 	}//main
 
