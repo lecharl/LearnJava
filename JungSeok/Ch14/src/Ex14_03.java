@@ -26,12 +26,17 @@ public class Ex14_03 {
 		
 		System.out.println(all.test(2));	//f && t || t -> f || t -> t
 		System.out.println(all2.test(2));	//f && (t || t) -> f && t -> f
+		System.out.println(all.test(150));	//t && t || t -> t
 		
-		Predicate<String> p2 = Predicate.isEqual("abc");
-		boolean result = p2.test("abc22");
+		String str1 = "abc";
+		String str2 = "abc";
+		
+		Predicate<String> p2 = Predicate.isEqual(str1);
+		boolean result = p2.test(str2);
 		System.out.println(result);
 		//***한줄로 줄이면!!
-		boolean result2 = Predicate.isEqual("abc").test("abc22");
+		boolean result2 = Predicate.isEqual(str1).test(str2);
+		//boolean result2 = str1.equals(str2); 랑 같다.
 		System.out.println(result2);
 
 	}

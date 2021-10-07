@@ -22,23 +22,6 @@ public class Ex14_02_1 {
 		List<Integer> list2 = eraseIll(f, list);
 		System.out.println(list2);
 		
-		Predicate<Integer> p1 = i -> i < 100;
-		Predicate<Integer> q = i -> i < 200;
-		Predicate<Integer> r = i -> i%2 == 0;
-		
-		Predicate<Integer> notP = p1.negate();	//i >=100
-		Predicate<Integer> all = notP.and(q).or(r);	//100<= i && i <200 || i%2 == 0
-		Predicate<Integer> all2 = notP.and(q.or(r));	//100<= i && (i <200 || i%2 == 0)
-		
-		System.out.println(all.test(2));	//f && t || t -> f || t -> t
-		System.out.println(all2.test(2));	//f && (t || t) -> f && t -> f
-		
-		Predicate<String> p2 = Predicate.isEqual("abc");
-		boolean result = p2.test("abc22");
-		System.out.println(result);
-		//***한줄로 줄이면!!
-		boolean result2 = Predicate.isEqual("abc").test("abc22");
-		System.out.println(result2);
 	}
 	
 	//Supplier s를 받아(1~100 난수를 받아) list에 추가
