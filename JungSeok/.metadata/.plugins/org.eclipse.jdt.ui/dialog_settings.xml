@@ -54,6 +54,12 @@
 		<item key="InstanceOf" value="false"/>
 		<item key="Blocks" value="false"/>
 		<item key="Objects.equals &amp; Objects.hash" value="true"/>
+		<item key="LimitElements" value="false"/>
+		<item key="IgnoreDefault" value="true"/>
+		<item key="StringStyle" value="0"/>
+		<item key="LimitValue" value="10"/>
+		<item key="SkipNull" value="false"/>
+		<item key="ToStringTemplateSelected" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item key="SortOrdering" value="false"/>
@@ -62,9 +68,9 @@
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="216"/>
 		<item key="DIALOG_Y_ORIGIN" value="9"/>
-		<item key="DIALOG_WIDTH" value="752"/>
-		<item key="DIALOG_HEIGHT" value="927"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.216|0|WINDOWS|1|-16|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<item key="DIALOG_WIDTH" value="681"/>
+		<item key="DIALOG_HEIGHT" value="889"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="renameSubpackages" value="false"/>
@@ -99,5 +105,12 @@
 		<item key="DIALOG_WIDTH" value="746"/>
 		<item key="DIALOG_HEIGHT" value="688"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.216|0|WINDOWS|1|-16|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_X_ORIGIN" value="189"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="599"/>
+		<item key="DIALOG_HEIGHT" value="877"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
